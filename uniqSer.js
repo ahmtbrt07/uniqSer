@@ -1,5 +1,5 @@
-import ax from 'axios';
-import fs from 'node:fs';
+const axios = require('axios');;
+const fs = require('node:fs');
 
 const allList = process.argv[2]; // command line get domains  and subdomains list
 
